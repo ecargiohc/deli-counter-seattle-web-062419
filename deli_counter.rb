@@ -16,13 +16,13 @@ def take_a_number(katz_deli, person)
 end
 
 def now_serving(katz_deli)
-  if katz_deli.size > 0 
-    now_line = "Currently serving "
-    katz_deli.each do |index| 
-      now_line << "#{index}."
-    end
-    puts now_line
-    katz_deli.shift
+  # if katz_deli.size > 0 
+  #   now_line = "Currently serving "
+  #   katz_deli.each do |index| 
+  #     now_line << "#{index}."
+  #   end
+  #   puts now_line
+  #   katz_deli.shift
   else  
     puts "There is nobody waiting to be served!"
   end
