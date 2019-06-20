@@ -18,6 +18,7 @@ end
 def now_serving(katz_deli)
   if katz_deli.length > 0
   puts "Currently serving #{katz_deli}."
+  katz_deli.shift
   # if katz_deli.size > 0 
   #   now_line = "Currently serving "
   #   katz_deli.each do |index| 
